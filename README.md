@@ -1,2 +1,3 @@
-Live: http://www.skabd.com/
+Live: https://www.sonicspark.ai/
 
+Inspiration: https://www.asthait.com/
