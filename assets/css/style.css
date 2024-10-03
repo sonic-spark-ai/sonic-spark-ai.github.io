@@ -37,12 +37,66 @@
     background-color: #353935;
     color: white;
     border: none;
-    font-weight: bold
+    font-weight: bold;
+    box-shadow: none;
 }
 
 .hasisHeader .btn:hover {
     color: white;
     text-decoration: none;
 }
-
+.hasisHeader .navbar-light .navbar-nav .nav-link {
+    color: #353535;
+    font-weight: 600;
+}
 /* #hasis(hasisHeader) #css ends  */
+
+/* #abnet(abnetAbout) #css starts  */
+.abnetAbout {
+    overflow: hidden;
+}
+
+.abnetAbout .height {
+    height: 100vh;
+}
+
+.abnetAbout .headline {
+    left: 130px;
+}
+
+.abnetAbout .btn {
+    border-radius: 30px;
+    background-color: #353535;
+}
+
+.abnetAbout h1 {
+    font-size: 50px;
+}
+
+.abnetAbout .clipped {
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+    transition: clip-path 0.3s ease;
+    min-height: 350px;
+    background-image: url(https://images.moksy.com/templates/default/hero/about.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .abnetAbout .headline {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .abnetAbout .headline {
+        left: 20px;
+    }
+
+    .abnetAbout .clipped {
+        clip-path: none;
+        max-height: 300px !important;
+    }
+}
+
+/* #abnet(abnetAbout) #css ends  */
