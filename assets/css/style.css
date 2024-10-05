@@ -6,6 +6,13 @@
     font-family: "Lato", sans-serif;
 }
 
+:root{
+  --primary: #FF6F61;
+  --secondary: #F4F4F4;
+  --black: #202020;
+  --button-padding: 10px 30px 10px 30px;
+  --link-text: 18px;
+}
 
 /* #hasis(hasisHeader) #css starts  */
 .hasisHeader .logo {
@@ -29,29 +36,34 @@
 }
 
 .hasisHeader .navbar-light .navbar-toggler {
-    color: #353935;
-    border-color: #353935;
+    color: var(--black);
+    border-color: var(--black);
     font-size: 25px;
 }
 
 .hasisHeader .btn {
-    background-color: #353935;
-    color: white;
+    background-color: var(--primary);
+    color: var(--black);
     border: none;
     font-weight: bold;
     box-shadow: none;
+    font-size: var(--link-text);
+    padding: var(--button-padding);
 }
 
 .hasisHeader .btn:hover {
-    color: white;
+    color: var(--black);
     text-decoration: none;
 }
 
 .hasisHeader .navbar-light .navbar-nav .nav-link {
-    color: #353535;
+    color: var(--black);
     font-weight: 600;
+    font-size: var(--link-text);
 }
-
+.hasisHeader .navbar-light .navbar-nav .nav-link:hover{
+  color: var(--primary);
+}
 /* #hasis(hasisHeader) #css ends  */
 
 /* #absorve(absorveAbout) #css starts  */
@@ -381,7 +393,6 @@
 
 .countyCounters .counter-box {
   display: block;
-  background: ;
   padding: 40px 20px 37px;
   text-align: center
 }
@@ -419,3 +430,71 @@
 }
 
 /* #county(countyCounters) #css ends  */
+
+
+/* #chrysta(chrystaContact) #css starts  */
+.chrystaContact .fdb-block {
+  padding: 5rem 1rem 18rem 1rem;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://images.moksy.com/templates/default/shapes/shape-purple.svg)
+}
+
+.chrystaContact .btn {
+  color: #fff;
+  border-color: #353935;
+  background-color: #353935;
+}
+.chrystaContact .form-control:focus{
+box-shadow: none;
+}
+/* #chrysta(chrystaContact) #css ends  */
+
+/* #fund(fundFooter) #css starts */
+
+.fundFooter .btn-outline-light:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+/* #fund(fundFooter) #css ends */
+
+
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
