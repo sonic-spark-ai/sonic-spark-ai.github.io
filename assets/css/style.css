@@ -10,6 +10,7 @@
   --primary: #FF6F61;
   --secondary: #F4F4F4;
   --black: #202020;
+  --light-black: #353535;
   --button-padding: 10px 30px 10px 30px;
   --link-text: 18px;
 }
@@ -18,29 +19,23 @@
 .hasisHeader .logo {
     max-height: 80px
 }
-
 .hasisHeader .navbar-open-icon {
     display: inline
 }
-
 .hasisHeader .navbar-close-icon {
     display: none
 }
-
 .hasisHeader .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
     display: none
 }
-
 .hasisHeader .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
     display: inline
 }
-
 .hasisHeader .navbar-light .navbar-toggler {
     color: var(--black);
     border-color: var(--black);
     font-size: 25px;
 }
-
 .hasisHeader .btn {
     background-color: var(--primary);
     color: var(--black);
@@ -50,14 +45,12 @@
     font-size: var(--link-text);
     padding: var(--button-padding);
 }
-
 .hasisHeader .btn:hover {
     color: var(--black);
     text-decoration: none;
 }
-
 .hasisHeader .navbar-light .navbar-nav .nav-link {
-    color: var(--black);
+    color: var(--light-black);
     font-weight: 600;
     font-size: var(--link-text);
 }
@@ -67,12 +60,6 @@
 /* #hasis(hasisHeader) #css ends  */
 
 /* #absorve(absorveAbout) #css starts  */
-
-.absorveAbout #outlined:hover {
-    background-color: #fff;
-    color: #353535 !important;
-}
-
 .absorveAbout .height {
     height: 100vh;
     background-image: url(../img/others/ai.jpg);
@@ -80,24 +67,23 @@
     background-position: center right;
     background-repeat: no-repeat;
 }
-
 .absorveAbout .maindiv {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(39, 38, 38, 0.5)
 }
 
 .absorveAbout .btn1 {
     border-radius: 30px;
-    background-color: #353535;
+    background-color: var(--light-black);
     box-shadow: none;
 }
 
 .absorveAbout .btn2 {
     border-radius: 30px;
-    border: 1px solid #fff;
+    border: 1px solid var(--secondary);
     box-shadow: none;
 }
 
@@ -106,6 +92,12 @@
   font-weight: bold;
   line-height: 1.2;
   margin: 20px 0;
+  color: var(--secondary);
+}
+
+.absorveAbout #outlined:hover {
+  background-color: var(--secondary);
+  color: #353535 !important;
 }
 
 /* Medium screens (tablets) */
@@ -157,6 +149,7 @@
 .wowWork strong {
     position: relative;
     font-size: 50px;
+    color: var(--black);
   }
   .wowWork  strong::after {
     content: "";
@@ -176,6 +169,7 @@
     background-size: contain;
     background-position: center center;
     min-height: 300px;
+    background-repeat: no-repeat;
 }
 
 .wowWork .caseStudytwo {
@@ -284,106 +278,109 @@
 /* button css ends  */
 
 
-/* #sunno(sunnoService) #css starts */
-.sunnoService{
-  padding: 4rem;
-}
-
-.sunnoService .content-103 {
-  padding-bottom: 50px;
-}
-
-.sunnoService .service-post {
-  background: #fff;
-  padding: 30px;
-  text-align: center;
-  cursor: pointer;
+/* #samon(samonService) #css starts */
+.samonService .feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
   position: relative;
-  z-index: 12;
-  margin-bottom: 30px;
-  -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
-  -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0
 }
 
-.sunnoService .content-103 .service-content {
-  position: relative;
-  z-index: 13;
+.samonService .feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s
 }
 
-.sunnoService .content-103 .service-icon {
-  margin: 10px 0 20px 0;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+.samonService .feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #fc5356;
+  color: #ffffff;
   text-align: center;
-  border: 2px solid #353535;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 50px;
-  -moz-transition: color, 250ms;
-  -o-transition: color, 250ms;
-  -webkit-transition: color, 250ms;
-  transition: color, 250ms;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px
 }
 
-.sunnoService .content-103 .service-post:hover .service-icon {
-  border-color: #fff;
+.samonService .feature-box-1 .icon i {
+  line-height: 70px
 }
 
-.sunnoService .content-103 .service-icon i {
-  font-size: 18px;
-  color: #353535;
+.samonService .feature-box-1 h5 {
+  color: #20247b;
+  font-weight: 600
 }
 
-.sunnoService .content-103 .service-post:hover .service-icon i {
-  color: #fff;
+.samonService .feature-box-1 p {
+  margin: 0
 }
 
-.sunnoService .content-103 .service-title {
-  font-size: 16px;
-  font-weight: normal;
-  margin-bottom: 15px;
-  -moz-transition: color, 250ms;
-  -o-transition: color, 250ms;
-  -webkit-transition: color, 250ms;
-  transition: color, 250ms;
-}
-
-.sunnoService .content-103 .service-post:hover .service-title {
-  color: #fff;
-}
-
-.sunnoService .content-103 .service-description {
-  -moz-transition: color, 250ms;
-  -o-transition: color, 250ms;
-  -webkit-transition: color, 250ms;
-  transition: color, 250ms;
-}
-
-.sunnoService .content-103 .service-post:hover .service-description {
-  color: #fff;
-}
-
-.sunnoService .content-103 .service-hover {
+.samonService .feature-box-1:after {
+  content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  z-index: 11;
-  width: 100%;
-  height: 0px;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
   background: #353535;
-  -moz-transition: width, 250ms;
-  -o-transition: width, 250ms;
-  -webkit-transition: width, 250ms;
-  transition: width, 250ms;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s
 }
 
-.sunnoService .content-103 .service-post:hover .service-hover {
+.samonService .feature-box-1:hover {
+  top: -5px
+}
+
+.samonService .feature-box-1:hover h5 {
+  color: #ffffff
+}
+
+.samonService .feature-box-1:hover p {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+.samonService .feature-box-1:hover:after {
+  width: 100%;
   height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto
 }
 
-/* #sunno(sunnoService) #css ends */
+.samonService .section {
+  padding: 100px 0;
+  position: relative
+}
+
+.samonService .section-title {
+  padding-bottom: 45px
+}
+
+.samonService .section-title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 0 0 15px;
+  border-left: 5px solid #fc5356;
+  padding-left: 15px
+}
+
+/* #samon(samonService) #css ends */
 
 
 /* #county(countyCounters) #css starts  */
