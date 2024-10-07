@@ -179,16 +179,16 @@
     min-height: 300px;
 }
 .wowWork .caseStudythree {
-    background-image: url(../img/portfolio/helpy.jpg) , url('../img/portfolio/helpytwo.jpg');
+    background-image: url('../img/portfolio/helpytwo.jpg') , url(../img/portfolio/helpy.jpg);   
     background-size: 45%; 
     background-position: left top, top right;
     min-height: 400px;
     background-repeat: no-repeat;
 }
-.wowWork .caseStudyfour {
-    background-image: url(../img/portfolio/studysprint.png);
+.wowWork .caseStudyfour { 
+    background-image: url('../img/portfolio/sudysprinttwo.png') , url(../img/portfolio/studysprint.png);
     background-size: 45%; 
-    background-position: top;
+    background-position: left top, top right;
     min-height: 400px;
     background-repeat: no-repeat;
 }
