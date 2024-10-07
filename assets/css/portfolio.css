@@ -8,3 +8,7 @@ html{
     font-size: 24px;
     padding-top: 4rem;
 }
+.info .btn1{
+    background-color: #FF6F61;
+    color: #353535;
+}
