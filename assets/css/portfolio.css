@@ -1,0 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
+.info h1{
+    font-weight: bold;
+}
+.info .para{
+    font-size: 24px;
+    padding-top: 4rem;
+}
