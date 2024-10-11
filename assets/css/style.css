@@ -7,7 +7,7 @@
 }
 
 :root{
-  --primary: #FF6F61;
+  --primary: #112228;
   --secondary: #F4F4F4;
   --black: #202020;
   --light-black: #353535;
@@ -38,7 +38,7 @@
 }
 .hasisHeader .btn {
     background-color: var(--primary);
-    color: var(--black);
+    color: #F4F4F4;
     border: none;
     font-weight: bold;
     box-shadow: none;
@@ -46,7 +46,7 @@
     padding: var(--button-padding);
 }
 .hasisHeader .btn:hover {
-    color: var(--black);
+    color: #F4F4F4;
     text-decoration: none;
 }
 .hasisHeader .navbar-light .navbar-nav .nav-link {
@@ -446,7 +446,7 @@
 
 .cisabelContact .btn {
   background-color: var(--primary);
-  color: var(--black);
+  color: #F4F4F4;
   border: none;
   font-weight: bold;
   box-shadow: none;
@@ -501,4 +501,8 @@
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.bg-mybg {
+  background-color: var(--primary);
 }
