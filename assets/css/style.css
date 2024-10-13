@@ -172,6 +172,14 @@
     background-repeat: no-repeat;
 }
 
+
+.wowWork .caseStudysix {
+  background-image: url(../img/portfolio/VastNext.png);
+  background-size: contain;
+  background-position: center center;
+  min-height: 300px;
+  background-repeat: no-repeat;
+}
 .wowWork .caseStudytwo {
     background-image: url(../img/portfolio/demo.png);
     background-size: cover;
@@ -191,6 +199,14 @@
     background-position: left top, top right;
     min-height: 400px;
     background-repeat: no-repeat;
+}
+
+.wowWork .caseStudyseven {
+  background-image: url('../img/portfolio/basi1.jpg') , url(../img/portfolio/basi2.jpg);   
+  background-size: 45%; 
+  background-position: left top, top right;
+  min-height: 400px;
+  background-repeat: no-repeat;
 }
 
 .wowWork .badge {

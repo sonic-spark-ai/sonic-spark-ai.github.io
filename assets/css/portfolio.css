@@ -9,6 +9,48 @@ html{
     padding-top: 4rem;
 }
 .info .btn1{
-    background-color: #FF6F61;
-    color: #353535;
+    background-color: #112228;
+    color: #F4F4F4;
 }
+.wowWork .caseStudyeight {
+    background-image: url(../img/portfolio/Animatrix.png);
+    background-size: contain;
+    background-position: center center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+  }
+.wowWork .caseStudyNine {
+    background-image: url('../img/portfolio/Onnow1.png') , url('../img/portfolio/Onnow2.png');   
+    background-size: 45%; 
+    background-position: left top, top right;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.wowWork .caseStudyten {
+    background-image: url(../img/portfolio/shard.png);
+    background-size: contain;
+    background-position: center center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+  }
+.wowWork .caseStudyeleven {
+    background-image: url(../img/portfolio/ScholarlyAI.png);
+    background-size: contain;
+    background-position: center center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+  }
+  .wowWork .caseStudyTwoelve{
+    background-image: url(../img/portfolio/AttendanceSystem.png);
+    background-size: contain;
+    background-position: center center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+  }
+  .wowWork .caseStudyThirteen{
+    background-image: url('../img/portfolio/pactai.jpg');   
+    background-size: 45%; 
+    background-position: left top, top right;
+    min-height: 400px;
+    background-repeat: no-repeat;
+  }
