@@ -394,7 +394,7 @@
 
 .samonService .section-title h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   margin: 0 0 15px;
   border-left: 5px solid var(--primary);
   padding-left: 15px
@@ -402,6 +402,38 @@
 
 /* #samon(samonService) #css ends */
 
+/* #tefnu(tefnuTestimonial) #css starts  */
+.tefnuTestimonial {
+  margin-bottom: 100px;
+}
+.tefnuTestimonial .clients {
+  color: var(--primary)
+}
+
+.tefnuTestimonial .image {
+  height: 55px;
+  width: 55px;
+}
+
+.tefnuTestimonial .bg-circle {
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary)
+}
+
+.tefnuTestimonial .second-div {
+  background-color: var(--primary)
+}
+.tefnuTestimonial .display-4{
+  font-size: 40px;
+}
+.tefnuTestimonial .bg-light{
+  background-color: var(--secondary) !important;
+}
+.tefnuTestimonial .text-secondary{
+  color: var(--light-black) !important;
+}
+/* #tefnu(tefnuTestimonial) #css ends  */
 
 /* #county(countyCounters) #css starts  */
 .countyCounters .counter-box {
