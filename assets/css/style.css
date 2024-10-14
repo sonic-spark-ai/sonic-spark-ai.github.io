@@ -474,11 +474,209 @@
 }
 /* #cisabel(cisabelContact) #css ends  */
 
-/* #fund(fundFooter) #css starts */
-.fundFooter h5{
-  font-size: 20px;
+/* #faltu(faltuFooter) #css starts */
+.faltuFooter a {
+  color: var(--secondary);
+  text-decoration: none;
 }
-/* #fund(fundFooter) #css ends */
+
+.faltuFooter .footer {
+    background-color: #DDD6D6;
+}
+.faltuFooter .footer-wave-svg {
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    position: relative;
+    top: -1px;
+    width: 100%;
+}
+.faltuFooter .footer-wave-path {
+    fill: #fff;
+}
+
+.faltuFooter .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 450px;
+    position: relative;
+}
+
+.faltuFooter .footer-content-column {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    color: var(--primary);
+}
+
+.faltuFooter .footer-content-column ul li a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.faltuFooter .footer-logo-link {
+    display: inline-block;
+}
+.faltuFooter .footer-menu {
+    margin-top: 30px;
+}
+
+.faltuFooter .footer-menu-name {
+    color: var(--primary);
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.faltuFooter .footer-menu-list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 0;
+}
+.faltuFooter .footer-menu-list li {
+    margin-top: 5px;
+}
+
+.faltuFooter .footer-call-to-action-description {
+    color: var(--primary);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.faltuFooter .footer-call-to-action-button:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-decoration: none;
+}
+.faltuFooter .button:last-of-type {
+    margin-right: 0;
+}
+.faltuFooter .footer-call-to-action-button {
+    background-color: var(--secondary);
+    border-radius: 21px;
+    color: var(--primary);
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    padding: 12px 30px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color .2s;
+    cursor: pointer;
+    position: relative;
+}
+.faltuFooter .footer-call-to-action {
+    margin-top: 30px;
+}
+.faltuFooter .footer-call-to-action-title {
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.faltuFooter .footer-call-to-action-link-wrapper {
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: var(--secondary);
+    text-decoration: none;
+}
+.faltuFooter .footer-call-to-action-link-wrapper a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+
+.faltuFooter .footer-copyright {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 15px 30px;
+  text-align: center;
+}
+
+.faltuFooter .footer-copyright-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.faltuFooter .footer-copyright-text {
+  color: var(--secondary);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.faltuFooter .footer-copyright-link {
+    color: var(--secondary);
+    text-decoration: none;
+}
+.faltuFooter .logo{
+  height: 120px;
+  width: 120px;
+  margin-left: -30px;
+}
+/* Media Query For different screens */
+@media (min-width:320px) and (max-width:479px)  { 
+  .faltuFooter .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:480px) and (max-width:599px)  {
+  .faltuFooter .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+@media (min-width:600px) and (max-width: 800px)  {
+  .faltuFooter .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+
+@media (min-width: 760px) {
+  .faltuFooter .footer-content {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1230px;
+      padding: 40px 15px 330px;
+      position: relative;
+  }
+
+  .faltuFooter .footer-wave-svg {
+      height: 50px;
+  }
+
+  .faltuFooter .footer-content-column {
+      width: 24.99%;
+  }
+}
+/* #faltu(faltuFooter) #css ends */
 
 
 /* Back to top */
