@@ -526,7 +526,7 @@
 
 .faltuFooter .footer-menu-name {
     color: var(--primary);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 900;
     letter-spacing: .1em;
     line-height: 18px;
@@ -579,7 +579,7 @@
 }
 .faltuFooter .footer-call-to-action-title {
     color: var(--primary);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 900;
     letter-spacing: .1em;
     line-height: 18px;
@@ -624,6 +624,7 @@
 .faltuFooter .footer-copyright-link {
     color: var(--secondary);
     text-decoration: none;
+    font-size: 18px;
 }
 .faltuFooter .logo{
   height: 120px;
