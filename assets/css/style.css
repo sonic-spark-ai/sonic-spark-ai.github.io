@@ -57,6 +57,49 @@
 .hasisHeader .navbar-light .navbar-nav .nav-link:hover{
   color: var(--primary);
 }
+
+/* For the dropdown styling */
+.hasisHeader .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: var(--secondary);
+  min-width: 200px;
+  box-shadow: none;
+  z-index: 1000;
+}
+
+/* Desktop view: Show dropdown on hover */
+@media (min-width: 768px) {
+  .hasisHeader .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+  }
+}
+
+/* Small screens: Dropdown should show only on click */
+@media (max-width: 767.98px) {
+  .hasisHeader .dropdown-menu {
+      position: relative; 
+      display: none;      
+  }
+  .hasisHeader .dropdown-menu.show {
+      display: block;    
+  }
+}
+
+.hasisHeader .dropdown-item {
+  color: var(--light-black);
+  padding: 10px 20px;
+  font-size: var(--link-text);
+  text-decoration: none;
+}
+
+.hasisHeader .dropdown-item:hover {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+
+
 /* #hasis(hasisHeader) #css ends  */
 
 /* #absorve(absorveAbout) #css starts  */
