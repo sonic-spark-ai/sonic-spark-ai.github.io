@@ -5,9 +5,6 @@
     padding: 0;
     font-family: "Lato", sans-serif;
 }
-body{
-  background-color: #F0F0F4;
-}
 :root{
   --primary: #112228;
   --secondary: #F4F4F4;
@@ -18,9 +15,6 @@ body{
 }
 
 /* #hasis(hasisHeader) #css starts  */
-.hasisHeader .bg-white{
-  background-color: #F0F0F4 !important;
-}
 .hasisHeader .logo {
     max-height: 80px
 }
